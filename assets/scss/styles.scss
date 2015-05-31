@@ -222,13 +222,6 @@ small {
       -o-text-overflow: ellipsis;
       -ms-text-overflow: ellipsis;
     }
-    h2 {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      -o-text-overflow: ellipsis;
-      -ms-text-overflow: ellipsis;
-    }
   }
 
   #banner {
@@ -286,15 +279,6 @@ small {
     margin: 0;
 
     h1 {
-      @include font-size(3.2);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      -o-text-overflow: ellipsis;
-      -ms-text-overflow: ellipsis;
-    }
-    
-    h2 {
       @include font-size(3.2);
       white-space: nowrap;
       overflow: hidden;
